@@ -6,8 +6,31 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button{
+  user-select: none;
 }
+
+label{
+  margin-bottom: 0.3rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+input,textarea{
+background-color: aliceblue ;
+padding: 0.5rem ;
+border-radius: 0.3rem;
+margin-bottom: 0.8rem;
+font-weight: bold;
+}
+
+.footer li{
+  margin:0.5rem 0.2rem;
+}
+.are{
+  width:100%;
+}
+/* .vl {
+  border-left: 6px solid green;
+  height: 500px;
+} */

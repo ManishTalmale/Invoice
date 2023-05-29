@@ -1,0 +1,15 @@
+.vl {
+    border-right: 2px solid rgb(78, 72, 153);
+    height: 5px;
+  }
+  .vl-left {
+    border-left: 2px solid rgb(78, 72, 153);
+    height: 5px;
+  }
+
+  @media (min-width:0px) and (max-width:640px){
+.table{
+    margin-left: -0.9em;
+    font-size: 10px;  
+}
+  } 
